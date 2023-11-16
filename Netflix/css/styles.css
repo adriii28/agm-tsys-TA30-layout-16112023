@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#main-contenedor{
+    background-color: rgb(26, 26, 26);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+    
+}
+
+#header{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#header-izq {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+}
+
+#header-der {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: large;
+    gap: 25px;
+    margin-right: 10px;
+}
+
+#main-list-movies{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 4fr 1fr 4fr 1fr 4fr;
+}
+
+#main-series {
+    width: 100%;
+    margin-left: 10px;
+    color: white;
+}
+
+#main-list-volverver {
+    margin-left: 10px;
+    color: white;
+    grid-row: 3 / 4 ;
+}
+
+#main-list-series-eeuu{
+    margin-left: 10px;
+    color: white;
+    grid-row: 5 / 6 ;
+}
+
+.video {
+    border-radius: 15px;
+    margin: 10px;
+    background-color: blueviolet;
+    grid-row: 2 / 3;
+}
+
+.video2 {
+    border-radius: 15px;
+    margin: 10px;
+    background-color: blueviolet;
+    grid-row: 4 / 5;
+}
+
+.video3 {
+    border-radius: 15px;
+    margin: 10px;
+    background-color: blueviolet;
+    grid-row: 6 / 7;
+}
+
+
+
+
+
+
+
+
+
