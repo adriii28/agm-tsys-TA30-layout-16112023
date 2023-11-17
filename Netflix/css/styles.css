@@ -11,6 +11,9 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 9fr;
+    box-shadow: inset 2px 27px 51px -15px black;
+
+
     
 }
 
@@ -18,6 +21,7 @@ body {
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
+
 }
 
 #header-izq {
@@ -85,6 +89,97 @@ body {
     background-color: blueviolet;
     grid-row: 6 / 7;
 }
+
+#v1 {
+    background-image: url('../img/p1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v2 {
+    background-image: url('../img/p2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v3 {
+    background-image: url('../img/p3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v4 {
+    background-image: url('../img/p4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v5 {
+    background-image: url('../img/p5.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v6 {
+    background-image: url('../img/p6.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v7 {
+    background-image: url('../img/p7.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v8 {
+    background-image: url('../img/p8.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v9 {
+    background-image: url('../img/p9.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v10 {
+    background-image: url('../img/p10.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v11 {
+    background-image: url('../img/p11.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v12 {
+    background-image: url('../img/p12.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v13 {
+    background-image: url('../img/p13.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v14 {
+    background-image: url('../img/p14.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#v15 {
+    background-image: url('../img/p15.png');
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 
