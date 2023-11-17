@@ -11,10 +11,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 9fr;
-    box-shadow: inset 2px 27px 51px -15px black;
-
-
-    
+    box-shadow: inset 2px 27px 51px -15px black;  
 }
 
 #header{
@@ -55,6 +52,7 @@ body {
     width: 100%;
     margin-left: 10px;
     color: white;
+
 }
 
 #main-list-volverver {
