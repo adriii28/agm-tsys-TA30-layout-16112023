@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 0;
+}
+
+#header {
+    height: 10vh;
+}
+
+#main {
+    height: 75vh;
+}
+
+.cn1 {
+    height: 15vh;
+}
+
+.ftr1 {
+    height: 7vh;
+    background-color: #e7e7e7;
+
+}
+
+#header{
+    display: flex;
+    align-items: center;
+}
+
+.hdr1{
+    height: 5vh;
+    width: auto;
+}
+
+#header-der{
+    margin-left: auto;
+    margin-right: 25px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#header-izq{
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container-form{
+    text-align: center;
+}
+
+#main-container {
+    width: auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color_o, #color_e{
+    color: red;
+}
+
+#color_o2{
+    color: #dbb82f;
+}
+
+#color_l {
+    color: #57bd1a;
+}
+
+
+#main-container-idiomas{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+#searchbar{
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+    outline: none;
+    width: 30vw;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 30px; 
+    outline: none;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.link {
+    color: blue;
+}
+
+h1 {
+    color: #4285F4;
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+
+#footer-up-cnt{
+    display: flex;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 12vh;
+}
+
+#footer-down-cnt1{
+    width: 25vw;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+#footer-down-cnt2{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-down-cnt3{
+    width: 25vw;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+#footer-down{
+    display: flex;
+    border-top: 1px solid grey;
+}
+
